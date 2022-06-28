@@ -418,7 +418,6 @@ Utiliza las referencias de los breakpoints @media abajo */
     
         body {
             background-color: var(--cor-de-fundo) ;
-            background-color: red;
         }
 
         /* Menú */
@@ -488,6 +487,7 @@ Utiliza las referencias de los breakpoints @media abajo */
             width: 100%;
             display:flex; 
             flex-direction:row;
+
             justify-content:space-around;
             flex-wrap:wrap;
             align-items:baseline;
@@ -499,6 +499,8 @@ Utiliza las referencias de los breakpoints @media abajo */
             padding:0px;
             margin:0px;
             text-align: center;
+   
+
         }
 
 
@@ -541,10 +543,10 @@ Utiliza las referencias de los breakpoints @media abajo */
             padding:0px;
             margin:0px;
             text-align: center;
+       
         
         }
         
-
 
         /*Formación Académica*/
         .form__img{
@@ -552,6 +554,20 @@ Utiliza las referencias de los breakpoints @media abajo */
             height:80%;
     
         }
+
+        .academic__courses{
+            display:flex;
+            flex-direction:row;
+            align-items:center;
+
+        }
+
+        .academic__courses__box ul{
+
+            display:block;
+
+        }
+        
 
 
         /*Experiencia Profesional*/
