@@ -99,7 +99,7 @@ https://en.bem.info/methodology/quick-start/*/
 .menu__list__item{
     margin: 10px;
     /*transform: rotateY(0deg) rotate(-15deg); /* needs Y at 0 deg to behave properly*/
-    transition: transform 2s;*/
+    transition: transform 2s;
     
  
 }
@@ -402,7 +402,7 @@ Utiliza las referencias de los breakpoints @media abajo */
         @media only screen and (min-width: 360px) and (max-width: 800px){
     
         body {
-            background-color: red;
+            background-color: var(--cor-de-fundo) ;
         }
 
         /* Menú */
@@ -557,7 +557,7 @@ Utiliza las referencias de los breakpoints @media abajo */
         font-family: 'Raleway';
         margin:0;
         padding: 0;
-        background-color:blueviolet ;
+
 
 
     }
