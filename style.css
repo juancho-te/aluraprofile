@@ -293,6 +293,7 @@ section.experience{
     display:flex;
     flex-direction:row-reverse;
     align-items:center;
+    margin: 10px;
     
 }
 
@@ -302,6 +303,10 @@ section.experience{
     display:flex;
     flex-direction:row;
     align-items:center;
+    margin: 10px;
+    
+    
+
     
 }
 
@@ -311,6 +316,8 @@ section.experience{
     display:flex;
     flex-direction:row-reverse;
     align-items:center;
+    margin: 10px;
+    
     
 }
 
@@ -319,6 +326,7 @@ section.experience{
 
     align-items:center;
     margin-left: 10px;
+    
     
 }
 
